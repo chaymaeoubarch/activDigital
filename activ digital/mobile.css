@@ -1,0 +1,143 @@
+@media only screen and (max-width: 760px){
+    .mobile-drop-list {
+        flex-direction: column;
+    }
+    nav ul li {
+           padding-left:0px !important;
+           padding-right:0px !important;
+    }
+    .contact_mobile {
+          margin-left:23px !important;
+    }
+
+}
+
+
+@media only screen and (max-width: 767px){ 
+    .mobile-cards-holder {
+        display: inline-block !important;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .container_about {
+      font-size : 12px;
+      text-align: left;
+    }
+
+
+}
+
+/* 
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .main .cards {
+    -ms-flex: 0 0 48.7%;
+    flex: 0 0 48.7%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .main .cards {
+    -ms-flex: 0 0 32%;
+    flex: 0 0 32%;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .main .cards {
+    -ms-flex: 0 0 24%;
+    flex: 0 0 24%;
+  }
+} */
+
+@media (max-width: 991px)
+{
+  
+.logo-mobile {
+  display: none;
+}
+
+}
+@media (max-width:575px){
+  div.img_about {
+   display: none;
+  }
+}
+/* 
+.logo-mobile {
+  object-fit: contain;
+  width:70%;
+} */
+
+@media screen and (min-width: 768px) {
+  div.container_about {
+    flex-direction: row;
+     width: 100%;
+  }
+   
+   div.img_about {
+      height: 420px;
+      min-width: 360px;
+   }
+   
+   div.text-container {
+      margin: 0 60px;
+      max-width: 660px;
+   }
+ }
+ 
+ @media screen and (min-width: 1024px) {
+   div.container_about {
+      max-width: 1200px;
+   }
+ }
+ 
+ @media screen and (min-width: 1200px) {
+ }
+ @media(max-width:767px){
+  .carousel-caption {
+      position: initial;
+      z-index: 10;
+      padding: 3rem 2rem;
+      color: rgba(78, 77, 77, 0.856);
+      text-align: center;
+      font-size: 0.7rem;
+      font-style: italic;
+      font-weight: bold;
+      line-height: 1.5rem;
+  }
+}
+.carousel-caption img{
+  width: 6rem;
+  border-radius: 5rem;
+  margin-top: 2rem;
+}
+@media(max-width:767px){
+  .carousel-caption img{
+      width: 4rem;
+      border-radius: 4rem;
+      margin-top: 1rem;
+  }
+}
+#image-caption{
+  font-style: normal;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+@media(max-width:767px){
+  #image-caption{
+      font-style: normal;
+      font-size: 0.6rem;
+      margin-top: 0.5rem;
+  }
+}
+.fa-arrow-left, .fa-arrow-right{
+  background-color: rgba(143, 129, 132, 0.32);
+  color: black;
+  padding: 1.4rem;
+}
+@media(max-width:767px){
+  i{
+      padding: 0.8rem;
+  }
+}
